@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.canvas {
+    display: flex;
+    flex-direction: row;
+    width: 195vh;
+    height: 80vh;
+    justify-content: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+.canvasDivs {
+    border: 1px solid black;
+    height: 15px;
+    width: 15px;
+}
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.rainbow {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 5vh;
+    width: 180vh;
+}
+.colorPalette {
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+@Media (max-width: 1000px) {
+    body {
+        width: 1000px;
+    }
+}
